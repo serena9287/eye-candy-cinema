@@ -1,0 +1,52 @@
+.contact-us{
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.contact-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.form-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.input-group label{
+    margin-bottom: 0.25rem;
+}
+
+.input-group{
+    max-width: 60%;
+    margin: 0.5rem auto;
+    display:flex;
+    flex-direction: column;
+}
+
+.input-field{
+    outline:none;
+    border: 2px solid #bbb;
+    padding: 0.5rem;
+}
+
+.input-field:focus{
+    outline:none;
+    border: 2px solid rgb(139,0,0);
+    padding: 0.5rem;
+}
+
+.contact-text{
+    margin:0;
+}
+
+.form-title{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.contact-title-form{
+    margin: 2rem 0;
+}
