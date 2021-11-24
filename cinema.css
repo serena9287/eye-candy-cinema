@@ -29,6 +29,10 @@
     padding:1rem;
 }
 
+.cinema-body-schedule{
+    margin-left: 1rem;
+}
+
 .cinema-body-schedule-movie{
     display: flex;
     justify-content: space-between;
