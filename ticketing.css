@@ -1,0 +1,57 @@
+.ticketing-movie-img{
+    display: block;
+    max-width:200px;
+    width: 60%;
+}
+.ticketing-movie{
+    display: flex;
+    border: rgba(0, 0, 0, 0.7) solid 2px;
+    padding: 1rem;
+    justify-content: center;
+    background-color: rgba(0,0,0, 0.5);
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 900px){
+    .ticketing-movie{
+        flex-wrap: wrap;
+    }
+}
+
+.ticketing-section a{
+    font-weight: 500;
+    color:inherit;
+    margin-bottom: 1rem;
+}
+
+.ticketing-movie-info{
+    display: flex;
+    align-items: center;
+}
+
+.ticketing-movie-info-text{
+    margin-left: 1rem;
+}
+
+.play-button{
+    width: 1.5rem;
+}
+.ticketing-movie-schedule{
+    width:60%;
+    margin-left: 1rem;
+}
+
+.ticketing-movie-schedule-details{
+    margin: 0.2rem 0;
+    border: rgba(255,255,255, 0.5) groove 2px;
+}
+
+.ticketing-movie-schedule-details span{
+    display: inline-block;
+    padding: 1rem;
+}
+
+
+/* 
+border: red solid 2px;
+*/
